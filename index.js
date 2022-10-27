@@ -23,5 +23,5 @@ app.get('/courses/:id', (req, res) => {
 
 
 app.listen(port, () => {
-    console.log('index file is running on port', port);
+    console.log('Server side is running on port', port);
 })
